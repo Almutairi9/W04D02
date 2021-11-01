@@ -1,4 +1,4 @@
-// import React from 'react';
+
 import React, { useState } from "react";
 import TodoItem from "../TodoItem";
 import "./style.css";
@@ -9,7 +9,6 @@ const Todo = () => {
     { id: 2, name: "Walk" },
   ]);
   
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
